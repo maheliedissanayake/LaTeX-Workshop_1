@@ -8,36 +8,36 @@ Materialien für einen 90-minütigen LaTeX-Workshop für Physikstudierende. Die 
 
 | Datei | Was ist das? |
 |---|---|
-| [`Presentation_Slides.pdf`](LaTeX-Workshop.pptx) | Präsentationsfolien: kurze Geschichte von TeX und LaTeX, Vorteile, Grundlagen, die fünf Aufgaben und Quellen |
+| [`Presentation_Slides.pdf`](Presentation_Slides.pdf) | Präsentationsfolien: Grundlagen zu jedem Schritt, die fünf Aufgaben, typische Fehler und Quellen |
 | [`Aufgabenblatt/`](Aufgabenblatt/) | Aufgabenblatt als PDF, als Word-Datei und als LaTeX-Quelltext |
 | [`Spickzettel.pdf`](Spickzettel.pdf) | Zusammenfassung der wichtigsten Befehle |
 | [`starter-projekt.zip`](starter-projekt.zip) | Starter-Projekt für die Teilnehmenden: Text und Kopfzeile fertig, Formatierung fehlt (siehe `TODO`-Kommentare) |
-| [`Loesung/`](Loesung/) | Musterlösung als PDF und als ZIP zum Hochladen auf Overleaf |
+| [`Loesungen.pdf`](Loesungen.pdf) | Musterlösung als fertiges PDF |
+| [`loesungen.zip`](loesungen.zip) | Musterlösung als LaTeX-Projekt zum Hochladen auf Overleaf |
 
 ## Ablauf
 
 | Zeit | Thema |
 |---|---|
-| 0:00 | Geschichte & warum LaTeX? |
-| 0:13 | Overleaf & die Aufgabe |
-| 0:18 | Schritt 1 · Grundgerüst |
-| 0:30 | Schritt 2 · Struktur & Text |
-| 0:42 | Schritt 3 · Formeln |
-| 1:02 | Schritt 4 · Tabelle & Abbildung |
-| 1:14 | Schritt 5 · Literatur & Verweise |
-| 1:24 | Fehler, Ausblick, Fragen |
+| 0:00 | Einleitung |
+| 0:05 | Schritt 1 · Grundgerüst |
+| 0:20 | Schritt 2 · Struktur & Text |
+| 0:36 | Schritt 3 · Formeln |
+| 0:55 | Schritt 4 · Tabelle & Abbildung |
+| 1:09 | Schritt 5 · Literatur & Verweise |
+| 1:26 | Fehler, Ausblick, Fragen |
 
-Vor jeder Aufgabe zeigen ein paar Folien das Nötige. Danach arbeiten alle selbst, insgesamt etwa 40 Minuten.
+Vor jeder Aufgabe zeigen ein paar Folien das Nötige. Danach arbeiten alle selbst, insgesamt eine Stunde.
 
 ## Die Aufgabe
 
 | Schritt | Darum geht's | Zeit |
 |---|---|---|
-| 1 · Grundgerüst | Dokumentklasse `scrartcl`, Pakete, Titel mit `\maketitle` auf eigener Titelseite | 7 min |
-| 2 · Struktur & Text | Präambel und Abschnitte in eigene Dateien (`\input`), `\section`, Inhaltsverzeichnis auf eigener Seite, Listen | 7 min |
-| 3 · Formeln | `equation` und `align`, eigene Befehle mit `\newcommand`, Verweise mit `\eqref` | 12 min |
-| 4 · Abbildungen & Tabelle | `figure` mit `\includegraphics`, Tabellen mit `booktabs`, `\caption`, `\label`, `\ref` | 8 min |
-| 5 · Literatur & Querverweise | `biblatex` mit `\cite`, Literaturverzeichnis auf eigener Seite, klickbare Links mit `hyperref` | 6 min |
+| 1 · Grundgerüst | Dokumentklasse `scrartcl`, Pakete, Titel mit `\maketitle` auf eigener Titelseite | 11 min |
+| 2 · Struktur & Text | Präambel und Abschnitte in eigene Dateien (`\input`), `\section`, Inhaltsverzeichnis auf eigener Seite, Listen | 12 min |
+| 3 · Formeln | `equation` und `align`, eigene Befehle mit `\newcommand`, Verweise mit `\eqref` | 13 min |
+| 4 · Abbildungen & Tabelle | `figure` mit `\includegraphics`, Tabellen mit `booktabs`, `\caption`, `\label`, `\ref`, `\FloatBarrier` | 11 min |
+| 5 · Literatur & Querverweise | `biblatex` mit `\cite`, einen Eintrag selbst tippen, einen über Google Scholar holen, Literaturverzeichnis auf eigener Seite, klickbare Links mit `hyperref` | 13 min |
 
 Jeder Schritt spielt sich hauptsächlich in einer Datei ab. Wer hängen bleibt, kann trotzdem mit dem nächsten Schritt weitermachen.
 
@@ -47,11 +47,11 @@ Jeder Schritt spielt sich hauptsächlich in einer Datei ab. Wer hängen bleibt, 
 
 1. [`starter-projekt.zip`](starter-projekt.zip) herunterladen.
 2. In [Overleaf](https://www.overleaf.com) auf **New Project → Upload Project** gehen und die ZIP-Datei hochladen.
-3. Das Aufgabenblatt (`Aufgabenblatt.pdf`) liegt mit im Projekt. Einfach bei Schritt 1 anfangen.
+3. Das Aufgabenblatt (`aufgaben.pdf`) liegt mit im Projekt. Einfach bei Schritt 1 anfangen.
 
 **Lokal** (mit TeX Live oder MiKTeX):
 
-1. `starter-projekt.zip` (für die Übung) oder `Loesung/musterloesung.zip` (Musterlösung) entpacken.
+1. `starter-projekt.zip` (für die Übung) oder `loesungen.zip` (Musterlösung) entpacken.
 2. Im entpackten Ordner kompilieren:
 
 ```bash
@@ -64,7 +64,7 @@ Im Starter-Projekt klappt das erst, wenn Schritt 1 erledigt ist. Vorher fehlt no
 
 ## Quellen
 
-Die inhaltlichen Aussagen auf den Folien (Geschichte, Vorteile von LaTeX, Physik der Diffusion) sind mit Büchern und Fachartikeln belegt. Die Nummern unten rechts auf den Folien verweisen auf das Literaturverzeichnis auf den letzten beiden Folien.
+Die inhaltlichen Aussagen auf den Folien (LaTeX-Grundlagen und Physik der Diffusion) sind mit Büchern und Fachartikeln belegt. Die Nummern unten rechts auf den Folien verweisen auf das Literaturverzeichnis auf der letzten Folie.
 
 ## Lizenz
 
