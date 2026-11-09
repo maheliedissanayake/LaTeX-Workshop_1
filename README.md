@@ -20,23 +20,24 @@ Materialien für einen 90-minütigen LaTeX-Workshop für Physikstudierende. Die 
 | Zeit | Thema |
 |---|---|
 | 0:00 | Einleitung |
-| 0:05 | Schritt 1 · Grundgerüst |
-| 0:20 | Schritt 2 · Struktur & Text |
-| 0:36 | Schritt 3 · Formeln |
-| 0:55 | Schritt 4 · Tabelle & Abbildung |
-| 1:09 | Schritt 5 · Literatur & Verweise |
-| 1:26 | Fehler, Ausblick, Fragen |
+| 0:02 | Physikalischer Hintergrund |
+| 0:07 | Schritt 1 · Grundgerüst |
+| 0:22 | Schritt 2 · Struktur & Text |
+| 0:38 | Schritt 3 · Formeln |
+| 0:57 | Schritt 4 · Tabelle & Abbildung |
+| 1:10 | Schritt 5 · Literatur & Verweise |
+| 1:27 | Fehler, Ausblick, Fragen |
 
-Vor jeder Aufgabe zeigen ein paar Folien das Nötige. Danach arbeiten alle selbst, insgesamt eine Stunde.
+Vor jeder Aufgabe zeigen ein paar Folien das Nötige. Danach arbeiten alle selbst, insgesamt knapp eine Stunde.
 
 ## Die Aufgabe
 
 | Schritt | Darum geht's | Zeit |
 |---|---|---|
-| 1 · Grundgerüst | Dokumentklasse `scrartcl`, Pakete, Titel mit `\maketitle` auf eigener Titelseite | 11 min |
+| 1 · Grundgerüst | Dokumentklasse `scrartcl`, Pakete, Titel mit `\maketitle` auf eigener Titelseite | 10 min |
 | 2 · Struktur & Text | Präambel und Abschnitte in eigene Dateien (`\input`), `\section`, Inhaltsverzeichnis auf eigener Seite, Listen | 12 min |
 | 3 · Formeln | `equation` und `align`, eigene Befehle mit `\newcommand`, Verweise mit `\eqref` | 13 min |
-| 4 · Abbildungen & Tabelle | `figure` mit `\includegraphics`, Tabellen mit `booktabs`, `\caption`, `\label`, `\ref`, `\FloatBarrier` | 11 min |
+| 4 · Abbildungen & Tabelle | `figure` mit `\includegraphics`, Tabellen mit `booktabs`, `\caption`, `\label`, `\ref`, `\FloatBarrier` | 10 min |
 | 5 · Literatur & Querverweise | `biblatex` mit `\cite`, einen Eintrag selbst tippen, einen über Google Scholar holen, Literaturverzeichnis auf eigener Seite, klickbare Links mit `hyperref` | 13 min |
 
 Jeder Schritt spielt sich hauptsächlich in einer Datei ab. Wer hängen bleibt, kann trotzdem mit dem nächsten Schritt weitermachen.
